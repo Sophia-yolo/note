@@ -61,7 +61,7 @@
 
 ## 常用语法
 
-![常用语法](../assets/axios/常用语法.jpg)
+![](https://i.loli.net/2021/07/26/zRu5TJPyBfmw1Ev.jpg)
 
 ### Request method aliases
 
@@ -188,7 +188,7 @@ Interceptors
 
 拦截器结果：
 
-![image-20210713154417876](../assets/axios/image-20210713154417876.png)
+![](https://i.loli.net/2021/07/26/RGeAom8wVzFWhgd.png)
 
 
 
