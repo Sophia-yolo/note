@@ -8,7 +8,7 @@
 
 > 在浏览器内部发起请求，获取数据，改变页面中的部分内容。 
 
-![局部刷新](assets/Ajax/局部刷新-16272655004291.png)
+![](https://i.loli.net/2021/07/26/Xm3gAhCdRbGO6Ya.png)
 
 **Ajax：用于局部刷新的一种技术**
 
@@ -18,7 +18,7 @@
 
 Asynchronous JavaScript and XML（异步的 JavaScript 和 【XML:可扩展标记语言，被设计用来传输和存储数据】）
 
-![百度局部刷新](assets/Ajax/百度局部刷新-16272655421832.png)
+![](https://i.loli.net/2021/07/26/XbSJPBChw8uOgUV.png)
 
 - **Ajax 不是一种新的编程语言，而是一种用于创建更好更快以及交互性更强的Web应用程序的技术。**
 - 增加B/S的体验性

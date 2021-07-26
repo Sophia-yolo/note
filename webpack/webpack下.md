@@ -19,7 +19,7 @@ vue create vue-project
 
 loader本质上是一个函数
 
-![image-20210725114819526](../assets/webpack下/image-20210725114819526.png)
+![](https://i.loli.net/2021/07/26/SkJFRZOxQLK9ciM.png)
 
 
 
@@ -28,7 +28,7 @@ loader本质上是一个函数
 1. loader的执行顺序在use数组里面是从下往上执行
 2. loader里面有一个pitch方法，use数组中pitch方法的执行顺序是从上往下执行，因此我们如果想先执行某些功能，可以先在pitch方法中定义
 
-![image-20210725130413506](../assets/webpack下/image-20210725130413506.png)
+![](https://i.loli.net/2021/07/26/gbWLzIYy1sBnt5k.png)
 
 
 
@@ -268,19 +268,17 @@ const { SyncHook, SyncBailHook, AsyncParallelHook, AsyncSeriesHook } = require('
 
 SyncHook：
 
-![image-20210725170933001](../assets/webpack下/image-20210725170933001.png)
+![](https://i.loli.net/2021/07/26/eKmI9VuRUjQpYwv.png)
 
-![image-20210725170957101](../assets/webpack下/image-20210725170957101.png)
+![](https://i.loli.net/2021/07/26/BF4qMhASKRpjoDY.png)
 
 SyncBailHook：
 
-![image-20210725171250822](../assets/webpack下/image-20210725171250822.png)
+![](https://i.loli.net/2021/07/26/ByNIeWOKdZwGPn4.png)
 
-![image-20210725171226536](../assets/webpack下/image-20210725171226536.png)
+![](https://i.loli.net/2021/07/26/sVf97GeOSQBnMqa.png)
 
 ```js
-
-
 class Lesson {
     constructor() {
       // 初始化hooks容器
@@ -338,11 +336,11 @@ start() {
 
 异步并行：
 
-![image-20210725171820376](../assets/webpack下/image-20210725171820376.png)
+![](https://i.loli.net/2021/07/26/QakqV6Ei9twhJWf.png)
 
 异步串行：
 
-![image-20210725171953082](../assets/webpack下/image-20210725171953082.png)
+![](https://i.loli.net/2021/07/26/HQrf1SX5LxAlmWw.png)
 
 ```js
 const l = new Lesson();
@@ -413,7 +411,7 @@ module.exports = Plugin1;
 
 输出结果：
 
-![image-20210725173948227](../assets/webpack下/image-20210725173948227.png)
+![](https://i.loli.net/2021/07/26/BST74ovuqnGEPNJ.png)
 
 
 
@@ -437,17 +435,17 @@ module.exports = Plugin1;
 
 4. 在一个网站中点击开发者工具，点击绿色图标
 
-   ![image-20210725184035602](../assets/webpack下/image-20210725184035602.png)
+   ![](https://i.loli.net/2021/07/26/k9mhYGWtcNnz57H.png)
 
  便可以调试了，和在网页中调试代码一样的 
 
-![image-20210725184250332](../assets/webpack下/image-20210725184250332.png)
+![](https://i.loli.net/2021/07/26/jZ4XlxyVPb8uQ7p.png)
 
 跳转到如下页面，可以查看 compilation 的相关属性和方法：
 
-![image-20210725184444617](../assets/webpack下/image-20210725184444617.png)
+![](https://i.loli.net/2021/07/26/t3ar9IEd5FUjneH.png)
 
-![image-20210725185338009](../assets/webpack下/image-20210725185338009.png)
+![](https://i.loli.net/2021/07/26/hdN3bIqFJOMuKWS.png)
 
 
 
@@ -676,7 +674,7 @@ module.exports = {
 
 1. 创建如下目录
 
-   ![image-20210725232226622](../assets/webpack下/image-20210725232226622.png)
+   ![](https://i.loli.net/2021/07/26/kydmDRMqIoHV3O4.png)
 
 2. src文件夹中对应的 js 代码
 
@@ -739,7 +737,7 @@ module.exports = {
 
 5. 为了方便启动，控制台通过输入命令 `npm init -y`拉取出package.json文件
 
-   ![image-20210725230549650](../assets/webpack下/image-20210725230549650.png)
+   ![](https://i.loli.net/2021/07/26/IUKGqNWCPH7mgfh.png)
 
    > 终端命令`npm run build`时会运行/script/build.js文
 

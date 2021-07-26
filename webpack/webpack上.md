@@ -17,7 +17,7 @@ Webpack是一种前端资源构建工具，一个静态模块打包器（module 
 
 当Webpack处理应用程序时，它将根据模块的依赖关系进行静态分析，打包生成对应的静态资源(bundle)。
 
-![image-20210411154041840](../assets/webpack上/image-20210411154041840.png)
+![](https://i.loli.net/2021/07/26/6niy5kTRWtxfLcw.png)
 
 # Webpack五个核心概念
 
@@ -170,7 +170,7 @@ function __webpack_require__(moduleId){
 5. webpack   //直接运行，会将打包结果输出出去（dist文件夹）
 ```
 
-![image-20210720185926025](../assets/webpack上/image-20210720185926025-16272657621843.png)
+![](https://i.loli.net/2021/07/26/KuQRZ7f6me2wCEF.png)
 
 ### 入口
 
@@ -627,7 +627,7 @@ devServer: {
 }
 ```
 
-![image-20210723102356165](../assets/webpack上/image-20210723102356165.png)
+![](https://i.loli.net/2021/07/26/yQFwCJvzkSXIb47.png)
 
 > plugin 中加入：`webpack.HotModuleReplacementPlugin()`
 
