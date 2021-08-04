@@ -4,11 +4,7 @@
 
 
 
-
-
-# [AXIOS]()
-
-[axios/axios: Promise based HTTP client for the browser and node.js (github.com)](https://github.com/axios/axios)
+# [AXIOS](https://github.com/axios/axios)
 
 ##  XHR 的 ajax 封装特点
 
