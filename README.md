@@ -1,20 +1,30 @@
-# note
-## git 上传文件至 github
+# 总结的学习笔记
+## 分类列表
+### 前端基础阶段
 
-1. [图床](https://github.com/Molunerfinn/picgo/releases)下载搭建
+1. html5 + css3 
+2. JavaScript 基础+高级
+3. less/scss
+4. Bootstrap
+5. Ajax
 
-2. 登录 github，创建一个新的仓库
+### 后端服务器端 & 工程化 & 规范集成 & 自动化构建工具
 
-3. 复制仓库的https 地址备用
+1. Node.js
+2. 数据库
+3. ES6
+4. JS 模块化
+5. Git
+6. 构建工具：Webpack + webpack5
+7. promise
+8. Axios
+9. 微信小程序
+10. TypeScript 
 
-4. 本地操作
 
-   > 1. 右键打开 Git Bash Here
-   > 2. 输入 git clone  
-   > 3. cd note
-   > 4. git add .
-   > 5. git commit -m "提交信息"
-   > 6. git push -u origin master
+### 前端核心
+1. Vue.js + Vue3 + 源码解析
+2. React
 
 
 
