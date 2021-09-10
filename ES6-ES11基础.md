@@ -227,6 +227,57 @@ console.log(school);
 
 
 
+# 数组
+
+`Array.from()`
+
+1. 将类数组对象转换为真正数组
+
+   具备的条件：
+
+   1. **该类数组对象必须具有length属性，用于指定数组的长度。如果没有length属性，那么转换后的数组是一个空数组。**
+   2. **该类数组对象的属性名必须为数值型或字符串型的数字**
+
+   ```js 
+   let arrayLike = {
+       0: 'tom', 
+       1: '65',
+       2: '男',
+       3: ['jane','john','Mary'],
+       'length': 4
+   }
+   let arr = Array.from(arrayLike)
+   console.log(arr) // ['tom','65','男',['jane','john','Mary']]
+   ```
+
+2. 将Set结构的数据转换为真正的数组
+
+   ```js
+   let arr = [12,45,97,9797,564,134,45642]
+   let set = new Set(arr)
+   console.log(Array.from(set, item => item + 1)) // [ 13, 46, 98, 9798, 565, 135, 45643 ]
+   ```
+
+   
+
+3. 将字符串转换为数组
+
+   ```js
+   let  str = 'hello world!';
+   console.log(Array.from(str)) 
+   // ["h", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d", "!"]
+   ```
+
+   
+
+4. Array.from参数是一个真正的数组
+
+   ```js
+   console.log(Array.from([12,45,47,56,213,4654,154]))
+   ```
+
+   
+
 
 
 # 解构赋值
@@ -1673,7 +1724,8 @@ export function sum(a, b){
 ### 作用域
 
 定义：运行时变量、函数、对象可访问性
-作用域决定了代码中变量和其他资源的可见性
+
+> 作用域决定了代码中变量和其他资源的可见性
 
 #### 全局作用域
 

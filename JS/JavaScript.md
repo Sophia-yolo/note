@@ -877,13 +877,7 @@ PS：例如180°就应该写成Math.PI，而360°就应该写成Math.PI*2
 
 ## window 对象的常见事件
 
-1. 
-
-------
-
 调节窗口大小事件 ：window.addEventListener('risise',function(){})\window.onresize=function(){}
-
-------
 
 document.readyState属性
 
